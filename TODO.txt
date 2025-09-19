@@ -1,0 +1,26 @@
+[] shift switch
+
+shift button modifiers:
+  0 -> 9 = number functions.
+
+  ,   = Add to memory 
+      -> once clicked you have to pick a register number (0 -> 9)
+       > to store to.
+  
+  +/- = Rettrieve from memory
+      -> once clicked you have to pick a register number (0 -> 9)
+       > to replace the current number with.
+
+  ^2 = sqrt the current or final
+
+    / = "current" root of final, if final or current is null, 
+      > cubic root of current or final
+
+  * = final ^ current if final or current number are null,
+    > final or current (whichever is not null) ^3
+
+  + = n!
+
+  - = log base final of current.
+
+  % = PI
