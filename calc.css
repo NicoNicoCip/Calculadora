@@ -21,8 +21,12 @@ html {
   background-size: 3000px;
   background-repeat: no-repeat;
   background-clip: border-box;
+  transition: ease-in 0.08s background-color;
 }
 
+html.sft {
+  background-color: #69273b85;
+}
 
 body {
   width: 100%;

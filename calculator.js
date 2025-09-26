@@ -628,11 +628,13 @@ const switchShift = () => {
   // apply or remove shift styling to all buttons and displays
   buttons.forEach((button) => {
     if (isShifted === true) {
+      document.querySelector("html").classList.add("sft");
       button.classList.add("sft");
       display.classList.add("sft");
       display2nd.classList.add("sft");
       displayMode.classList.add("sft");
     } else {
+      document.querySelector("html").classList.remove("sft");
       button.classList.remove("sft");
       display.classList.remove("sft");
       display2nd.classList.remove("sft");
@@ -677,5 +679,5 @@ controlButtons.forEach((ctrlBtn) => {
 });
 
 // initialize the calculator
-updateDisplays(); 
+updateDisplays();
 addShortcuts();
